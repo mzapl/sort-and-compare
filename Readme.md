@@ -1,3 +1,5 @@
+Brief comparison of three sorting methods on different data sets.
+
 <table class="table">
 <thead><tr class="firstrow"><th>Time</th><th>QuickSort</th><th>HeapSort</th><th>BubbleSort</th></tr></thead><tbody>
  <tr><td>Random[]   </td><td>0.037</td><td>0.171</td><td>1.987</td></tr>
@@ -7,6 +9,7 @@
 
 <h1> example output </h1>
 
+<p>
 Recursion limit set:  10000
  ------------------------------ 
 quickSort(example, 0, size) sortedArr
@@ -119,3 +122,4 @@ bubbleSort(example) randomArr
         1    0.000    0.000    0.000    0.000 {built-in method builtins.len}
         1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
  ------------------------------ 
+</p>

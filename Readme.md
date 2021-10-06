@@ -9,3 +9,5 @@ Brief comparison of three sorting methods on different data sets.
 
 This quick experiment lets us pick out the best and worst cases.
 Especially for QuickSort we could prove that it is very ineffective with sorted or reverse-sorted data sets. 
+
+Each function was run with list of 5k elements. Time count by cProfile, displayed in seconds.
